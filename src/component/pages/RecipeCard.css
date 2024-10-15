@@ -1,0 +1,24 @@
+.recipe-list {
+    width: 1000px; /* Match the width */
+    height: auto; /* Adjust height automatically based on content */
+    margin: 0 auto; /* Center the recipe list */
+  }
+  
+  .recipe-card {
+    background-color: #ffffff; /* White background for each card */
+    border:1px #b65f54;
+    color: #000;
+    border-radius: 10px ; /* Rounded corners */
+   height: 350px;
+    padding: 15px; /* Padding inside the card */
+    margin-bottom: 20px; /* Space between cards */
+    text-align: center; /* Center the text */
+    width: 100%; /* Full width of the parent */
+  }
+  
+  .recipe-image {
+   height: 150px;
+   border-bottom: 7px solid #ffffff;
+    border-radius: 10px; /* Rounded corners for images */
+  }
+  
