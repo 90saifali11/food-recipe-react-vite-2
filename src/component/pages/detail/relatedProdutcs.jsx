@@ -69,7 +69,7 @@ const RelatedProduct = () => {
       <h2 style={styles.title}>Related Product</h2>
       <div style={styles.productCard}>
         <img 
-          src="/src/0_ot4byZYX36QAhFLW.jpg" 
+          src="https://firebasestorage.googleapis.com/v0/b/first-project-e823d.appspot.com/o/recipes%2F0_ot4byZYX36QAhFLW.jpg?alt=media&token=9f879724-851d-48ed-ada5-346b608cb399" 
           alt="Measuring spoons with ingredients" 
           style={styles.productImage}
         />

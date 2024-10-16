@@ -13,6 +13,7 @@ import PerfectRecipe from './component/pages/perfectRecipe';
 import BlogPage from './component/pages/blogPage';
 import RecipeFromDb from './component/pages/dataFromDb';
 import AboutSection from './component/pages/about';
+import UploadDetail from './component/pages/uploadData';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
             <Route path="/blogPage" element={<BlogPage />} /> {/* Updated this line */}
             <Route path="/dataFromDb" element={<RecipeFromDb />} /> {/* Updated this line */}
             <Route path="/about" element={<AboutSection />} /> {/* Updated this line */}
+            <Route path="/uploadData/:id" element={<UploadDetail/>}/>
             <Route path="*" element={<h1>Page Not Found</h1>} />
           </Routes>
         </Layout.Content>

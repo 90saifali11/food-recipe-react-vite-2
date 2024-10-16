@@ -70,11 +70,11 @@ const PerfectRecipe = () => {
                   <h3 style={{ fontSize: '18px', margin: '0 0 10px 0' }}>{recipe.name}</h3>
                   <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
                     <div style={{ display: 'flex', alignItems: 'center' }}>
-                      <img src="/src/male_boy_person_people_avatar_icon_159358.png" alt={recipe.author} style={{ width: '30px', height: '30px', borderRadius: '50%', marginRight: '10px' }} />
+                      <img src="https://firebasestorage.googleapis.com/v0/b/first-project-e823d.appspot.com/o/recipes%2Fmale_boy_person_people_avatar_icon_159358.png?alt=media&token=c49f96ab-5985-41de-b203-305340d2d3a8" alt={recipe.author} style={{ width: '30px', height: '30px', borderRadius: '50%', marginRight: '10px' }} />
                       <span style={{ fontSize: '14px' }}>UserId.{recipe.userId}</span>
                     </div>
                     <span style={{ fontSize: '14px', color: '#666' }}>
-                      <img src="/src/noun-calories-7053265.png" style={{ width: "20px" }} alt="" />
+                      <img src="https://firebasestorage.googleapis.com/v0/b/first-project-e823d.appspot.com/o/recipes%2Fnoun-calories-7053265.png?alt=media&token=dc253fcf-f08a-4015-89fa-d2bd01ac5fe9" style={{ width: "20px" }} alt="" />
                       {recipe.caloriesPerServing || recipe.calories} cals
                     </span>
                   </div>

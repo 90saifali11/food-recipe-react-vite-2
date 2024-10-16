@@ -126,7 +126,8 @@ const Header = () => {
     textDecoration: 'none',
     color: '#333',
     fontWeight: '600',
-    marginLeft: '20px',
+    padding: '0.2rem 0.1rem 0.3rem 0.2rem',
+
   };
 
   const buttonContainerStyle = {
@@ -138,15 +139,18 @@ const Header = () => {
   };
 
   const loginButtonStyle = {
-    padding: '0.5rem 1rem',
-    backgroundColor: '#FFF',
-    color: 'black',
+    padding: '0.5rem 0.1rem',
+    backgroundColor: '#b86459',
+    color: '#ffff',
     borderRadius: '9px',
     border: 'none',
     cursor: 'pointer',
     fontWeight: 'bold',
     boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.6)',
-  };
+    width: '65px', // Add or adjust this line to increase the button width
+    textAlign: 'center', // Optional, to ensure the text stays centered
+};
+
 
   const signupButtonStyle = {
     padding: '0.5rem 1rem',
@@ -218,7 +222,7 @@ const Header = () => {
   return (
     <header style={headerStyle}>
       <div style={logoStyle}>
-        <img src="/src/images/logo.png" style={{ width: '200px' }} alt="Logo" />
+        <img src="https://firebasestorage.googleapis.com/v0/b/first-project-e823d.appspot.com/o/recipes%2Flogo.png?alt=media&token=5c792ef0-1db1-4026-8d5c-3a4379baa966" style={{ width: '200px' }} alt="Logo" />
       </div>
 
       <div style={menuIconStyle} onClick={toggleMenu}>
@@ -228,22 +232,22 @@ const Header = () => {
       {/* Main navigation */}
       <nav style={menuOpen && isMobile ? mobileNavStyle : navStyle}>
         <Link to={`/`} style={linkStyle}>Home</Link>
-        <Link to={`/dataFromDb`} style={linkStyle}>upload</Link>
+        <Link to={`/dataFromDb`} style={linkStyle}>user Upload</Link>
         <Link to={`/perfectRecipe`} style={linkStyle}>Recipe</Link>
-        <Link to={`/about`} style={linkStyle}>About Us</Link>
         {user.isLogin ? (
-  <Link to={`/upload`} style={linkStyle}>Add Recipe</Link>
-) : (
-  <span
-  style={linkStyle}
-    onClick={() => alert('Please log in to upload a recipe.')}
-  >
+          <Link to={`/upload`} style={linkStyle}>Add Recipe</Link>
+        ) : (
+          <span
+          style={linkStyle}
+          onClick={() => alert('Please log in to upload a recipe.')}
+          >
     Add Recipe
   </span>
 )}
 
 
         <Link to={`/blogPage`} style={linkStyle}>Blog</Link>
+<Link to={`/about`} style={linkStyle}>About Us</Link>
         
 
         <div style={buttonContainerStyle}>
@@ -281,7 +285,7 @@ const Header = () => {
         )}
         <Link to={'/userAccount'} style={{ display: 'flex', alignItems: 'center', marginLeft: '10px' }}>
           <img
-            src="/src/images/boy.jpg" // Path to your male avatar image
+            src="https://firebasestorage.googleapis.com/v0/b/first-project-e823d.appspot.com/o/recipes%2Fboy.jpg?alt=media&token=a6bbf341-3b5f-43eb-b1ac-0f2afb6c08f1" // Path to your male avatar image
             alt="User Avatar"
             style={{ width: '40px', height: '40px', borderRadius: '50%', marginRight: '10px' }}
           />
@@ -289,7 +293,7 @@ const Header = () => {
         </Link>
       </div>
       <button style={loginButtonStyle} onClick={handleSignOut}>
-        Sign Out
+        log out
       </button>
     </>
   ) : (

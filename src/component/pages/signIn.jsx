@@ -165,7 +165,7 @@ const SignInForm = () => {
 
   return (
     <div style={containerStyle}>
-      <img src="/src/images (7).jpg" alt="Delicious meal" style={imageStyle} />
+      <img src="https://firebasestorage.googleapis.com/v0/b/first-project-e823d.appspot.com/o/recipes%2Fimages%20(7).jpg?alt=media&token=89c35b8c-8e50-4e04-a211-fa2989401b94" alt="Delicious meal" style={imageStyle} />
       <div style={formContainerStyle}>
         <h2 style={titleStyle}>Want to join our Family</h2>
         {error && <p style={{ color: 'red' }}>{error}</p>}
@@ -233,11 +233,11 @@ const SignInForm = () => {
         <p style={{ textAlign: 'center', margin: '20px 0' }}>Or you can join with</p>
         <div>
           <button style={socialButtonStyle}>
-            <img src="/src/images (8).jpg" alt="Google" style={{ marginRight: '10px', width: '20px' }} />
+            <img src="https://firebasestorage.googleapis.com/v0/b/first-project-e823d.appspot.com/o/recipes%2Fimages%20(8).jpg?alt=media&token=7f10aad8-9eaa-4ea9-9cb7-824b490851de" alt="Google" style={{ marginRight: '10px', width: '20px' }} />
             Sign in with Google
           </button>
           <button style={{ ...socialButtonStyle, marginRight: 0, height: "40px" }}>
-            <img src="/src/fb.webp" alt="Facebook" style={{ marginRight: '10px', width: '20px' }} />
+            <img src="https://firebasestorage.googleapis.com/v0/b/first-project-e823d.appspot.com/o/recipes%2Ffb.webp?alt=media&token=8d53c202-de6f-4aac-9976-99b8d16c5210" alt="Facebook" style={{ marginRight: '10px', width: '20px' }} />
             Sign in with Facebook
           </button>
         </div>
@@ -285,7 +285,7 @@ const SignInForm = () => {
         </p>
         </Link>
         <div style={{ textAlign: 'center', marginTop: '20px' }}>
-          <img src="/src/logo.png" alt="PerfectRecipe" style={{ width: '90px' }} />
+          <img src="https://firebasestorage.googleapis.com/v0/b/first-project-e823d.appspot.com/o/recipes%2Flogo.png?alt=media&token=5c792ef0-1db1-4026-8d5c-3a4379baa966" alt="PerfectRecipe" style={{ width: '90px' }} />
         </div>
       </div>
     </div>

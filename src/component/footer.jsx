@@ -112,11 +112,11 @@ const Footer = () => {
           <p>© 2023 Recipe.com. All Rights Reserved</p>
           <div>
             {/* Replace the src with the actual URLs for your social media icons */}
-            <img src="/src/music_12485747.png" alt="TikTok" style={socialIconStyle} />
+            <img src="https://firebasestorage.googleapis.com/v0/b/first-project-e823d.appspot.com/o/recipes%2Fmusic_12485747.png?alt=media&token=e6e605f4-39d8-4458-be59-dab2bbca2b9e" alt="TikTok" style={socialIconStyle} />
             <img src="https://img.freepik.com/premium-vector/new-twitter-logo-x-2023-twitter-x-logo-vector-download_691560-10809.jpg?w=740" alt="Twitter" style={socialIconStyle} />
             <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" style={socialIconStyle} />
             <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" style={socialIconStyle} />
-            <img src="/src/images/pinterest_2504932.png" alt="Pinterest" style={socialIconStyle} />
+            <img src="https://firebasestorage.googleapis.com/v0/b/first-project-e823d.appspot.com/o/recipes%2Fpinterest_2504932.png?alt=media&token=6a54d214-dcc9-428a-aa52-7d569830d308" alt="Pinterest" style={socialIconStyle} />
           </div>
         </div>
       </footer>

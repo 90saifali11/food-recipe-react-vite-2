@@ -319,7 +319,7 @@ const RecipePage = () => {
       <LikeRecipes/>
 
    
-    <div
+    <div className='right'
       style={{
         backgroundColor: "#ffff",
         position: "absolute",

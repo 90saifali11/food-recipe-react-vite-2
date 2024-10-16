@@ -7,13 +7,13 @@ const BlogPreview = () => {
       id: 1,
       title: 'Unlocking the Benefits of Intermittent Fasting for Weight Management and Health',
       excerpt: 'Weight Management and Health Weight Management and Health Weight Management and Health Weight Management and Health Weight ...',
-      image: '/src/images/Fasting-Ketosis-750x511.jpg'
+      image: 'https://firebasestorage.googleapis.com/v0/b/first-project-e823d.appspot.com/o/recipes%2FFasting-Ketosis-750x511.jpg?alt=media&token=954c4b53-1d44-4935-9398-41aef27a5929',
     },
     {
       id: 2,
       title: 'The Impact of Sugar Consumption on Your Health',
       excerpt: 'Unveiling the Hidden Dangers Unveiling the Hidden Dangers Unveiling the Hidden Dangers Unveiling the Hidden Dangers Unveiling the Hidden ...',
-      image: '/src/images/images (2).jpg'
+      image: 'https://firebasestorage.googleapis.com/v0/b/first-project-e823d.appspot.com/o/recipes%2Fimages%20(2).jpg?alt=media&token=8e0a723f-f1d8-40a0-ba73-ebbc9f49e19f',
     },
     {
       id: 3,

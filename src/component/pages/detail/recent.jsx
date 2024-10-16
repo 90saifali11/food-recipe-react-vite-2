@@ -77,14 +77,14 @@ const RecentRecipes = () => {
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                     <div style={{ display: 'flex', alignItems: 'center' }}>
                       <img
-                        src="/src/male_boy_person_people_avatar_icon_159358.png"
+                        src="https://firebasestorage.googleapis.com/v0/b/first-project-e823d.appspot.com/o/recipes%2Fmale_boy_person_people_avatar_icon_159358.png?alt=media&token=c49f96ab-5985-41de-b203-305340d2d3a8"
                         alt={recipe.author}
                         style={{ width: '16px', height: '16px', borderRadius: '50%', marginRight: '5px' }}
                       />
                       <span style={{ fontSize: '10px' }}>UserId.{recipe.userId}</span>
                     </div>
                     <span style={{ fontSize: '10px', color: '#666' }}>
-                      <img src="/src/noun-calories-7053265.png" style={{ width: "12px", marginRight: '2px' }} alt="" />
+                      <img src="https://firebasestorage.googleapis.com/v0/b/first-project-e823d.appspot.com/o/recipes%2Fnoun-calories-7053265.png?alt=media&token=dc253fcf-f08a-4015-89fa-d2bd01ac5fe9" style={{ width: "12px", marginRight: '2px' }} alt="" />
                       {recipe.caloriesPerServing || recipe.calories} cals
                     </span>
                   </div>

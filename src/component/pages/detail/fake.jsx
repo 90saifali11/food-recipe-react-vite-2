@@ -46,21 +46,21 @@ const RecipeCommentSection = () => {
   const initialComments = [
     {
       author: 'Sara Johnson',
-      src: "/src/user.jpg", // Simple image source
+      src: "https://firebasestorage.googleapis.com/v0/b/first-project-e823d.appspot.com/o/recipes%2Fuser.jpg?alt=media&token=ce832bed-9b24-4584-8765-40b7750237fc", // Simple image source
       content: 'Wow, this Mixed Greens with Sun-Dried Tomato Dressing recipe is a flavor explosion!',
       timestamp: '40 min ago',
       likes: 26,
     },
     {
       author: 'John Doe',
-      src: '/src/personalized_photo_patch-rfbf58f49b69c46e09d0dabc46c7b694c_q2bzd_166.jpg', // Simple image source
+      src: 'https://firebasestorage.googleapis.com/v0/b/first-project-e823d.appspot.com/o/recipes%2Fimages%20(1).jpg?alt=media&token=1b667a23-1653-4d66-98ca-9f13f7df47e7', // Simple image source
       content: 'Absolutely loved this recipe! It was easy and quick to make.',
       timestamp: '1 h ago',
       likes: 15,
     },
     {
       author: 'Emily Brown',
-      src: '/src/images (1).jpg', // Simple image source
+      src: 'https://firebasestorage.googleapis.com/v0/b/first-project-e823d.appspot.com/o/recipes%2Fpersonalized_photo_patch-rfbf58f49b69c46e09d0dabc46c7b694c_q2bzd_166.jpg?alt=media&token=cfb497cb-e9c4-410d-845c-6ed2ce9e4867', // Simple image source
       content: 'The dressing really elevated the salad. Will make it again for sure.',
       timestamp: '2 h ago',
       likes: 10,

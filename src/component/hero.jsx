@@ -113,9 +113,9 @@ const HeroSection = () => {
         </a>
       </div>
       <div style={imageContainerStyle}>
-        <img src="/src/images/h3-product6-400x378.png" alt="Delicious dish" style={dishImageStyle} />
+        <img src="https://firebasestorage.googleapis.com/v0/b/first-project-e823d.appspot.com/o/recipes%2Fh3-product6-400x378.png?alt=media&token=bf1d44f8-9c21-4eb4-a316-d122afda5ed8" alt="Delicious dish" style={dishImageStyle} />
         <div style={reviewStyle}>
-          <img src="/src/images/user.jpg" alt="Sara Johnson" style={{ width: '40px', height: '40px', borderRadius: '50%', marginRight: '1rem' }} />
+          <img src="https://firebasestorage.googleapis.com/v0/b/first-project-e823d.appspot.com/o/recipes%2Fuser.jpg?alt=media&token=ce832bed-9b24-4584-8765-40b7750237fc" alt="Sara Johnson" style={{ width: '40px', height: '40px', borderRadius: '50%', marginRight: '1rem' }} />
           <div>
             <strong>Sara Johnson</strong>
             <div style={{ color: '#FFD700' }}>★★★★★</div>
@@ -123,8 +123,8 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      <img src="/src/images/download (1).png" alt="Leaf decoration" style={{ ...leafStyle, top: '10%', right: '15%' }} />
-      <img src="/src/images/download (1).png" alt="Leaf decoration" style={{ ...leafStyle, bottom: '25%', right: '25%', mixBlendMode: 'color-burn' }} />
+      <img src="https://firebasestorage.googleapis.com/v0/b/first-project-e823d.appspot.com/o/recipes%2Fdownload%20(1).png?alt=media&token=355931d2-50db-4bf0-9439-e191e0663864" alt="Leaf decoration" style={{ ...leafStyle, top: '10%', right: '15%' }} />
+      <img src="https://firebasestorage.googleapis.com/v0/b/first-project-e823d.appspot.com/o/recipes%2Fdownload%20(1).png?alt=media&token=355931d2-50db-4bf0-9439-e191e0663864" alt="Leaf decoration" style={{ ...leafStyle, bottom: '25%', right: '25%', mixBlendMode: 'color-burn' }} />
     </div>
   );
 };
