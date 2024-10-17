@@ -77,7 +77,7 @@ const Header = () => {
   // Styles for the header and navigation
   const headerStyle = {
     display: 'flex',
-    justifyContent: 'space-between',
+    justifyContent: 'space-evenly',
     alignItems: 'center',
     padding: '1rem 2rem',
     backgroundColor: '#ffff',
@@ -119,16 +119,17 @@ const Header = () => {
   };
 
   const linkStyle = {
-    position:"relative",
-    top:"10px",
-    right:"0",
-    left:"10px",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
     textDecoration: 'none',
     color: '#333',
     fontWeight: '600',
-    padding: '0.2rem 0.1rem 0.3rem 0.2rem',
-
+    padding: '0.1rem ',
+    width: '87px', // Add this to ensure items are fully centered
+    textAlign: 'center', // Add this for better centering within flex
   };
+  
 
   const buttonContainerStyle = {
     display: 'flex',
@@ -139,9 +140,9 @@ const Header = () => {
   };
 
   const loginButtonStyle = {
-    padding: '0.5rem 0.1rem',
-    backgroundColor: '#b86459',
-    color: '#ffff',
+   
+    backgroundColor: '#ffff',
+    color: '#000',
     borderRadius: '9px',
     border: 'none',
     cursor: 'pointer',

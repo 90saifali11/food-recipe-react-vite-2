@@ -114,55 +114,9 @@ const SignInForm = () => {
     marginBottom: '20px',
   };
 
-  // Popup styles
-  const popupOverlayStyle = {
-    position: 'fixed',
-    top: 0,
-    left: 0,
-    width: '100%',
-    height: '100%',
-    backgroundColor: 'rgba(0, 0, 0, 0.5)',
-    zIndex: 999,
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-  };
+ 
 
-  const popupStyle = {
-    width: '90%',
-    maxWidth: '600px',
-    backgroundColor: 'white',
-    borderRadius: '10px',
-    boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
-    overflow: 'hidden',
-    position: 'relative',
-    zIndex: 1000,
-  };
-
-  const contentStyle = {
-    padding: '20px',
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
-  };
-
-  const privacyNoteStyle = {
-    fontSize: '12px',
-    color: '#999',
-    marginTop: '10px',
-    textAlign: 'center',
-  };
-
-  const closeButtonStyle = {
-    position: 'absolute',
-    top: '10px',
-    right: '10px',
-    background: 'none',
-    border: 'none',
-    fontSize: '20px',
-    cursor: 'pointer',
-  };
-
+  
   return (
     <div style={containerStyle}>
       <img src="https://firebasestorage.googleapis.com/v0/b/first-project-e823d.appspot.com/o/recipes%2Fimages%20(7).jpg?alt=media&token=89c35b8c-8e50-4e04-a211-fa2989401b94" alt="Delicious meal" style={imageStyle} />
@@ -216,7 +170,7 @@ const SignInForm = () => {
           <button
       type="submit"
       style={{
-        backgroundColor: loading ? '#9CA3AF' : '#3B82F6', // Change color when loading
+        backgroundColor: loading ? '#9CA3AF' : '#b65f54', // Change color when loading
         color: 'white',
         padding: '8px 16px',
         borderRadius: '4px',
@@ -242,42 +196,8 @@ const SignInForm = () => {
           </button>
         </div>
         <div>
-          <button
-            style={buttonStyle}
-            onClick={() => setIsLoginPopupOpen(true)} // Open popup on click
-          >
-            Log in
-          </button>
-
-          {isLoginPopupOpen && (
-            <div style={popupOverlayStyle}>
-              <div style={popupStyle}>
-                <button onClick={handleClosePopup} style={closeButtonStyle}>
-                  ×
-                </button>
-                <h2 style={titleStyle}>Welcome Back!</h2>
-                <p style={{ fontSize: '14px', color: '#666', marginBottom: '20px', textAlign: 'center' }}>
-                  Please enter your email to log in.
-                </p>
-                <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '10px', padding: '20px' }}>
-                  <input
-                    type="email"
-                    placeholder="Enter your email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    style={inputStyle}
-                    required
-                  />
-                  <button type="submit" style={buttonStyle}>
-                    Log In
-                  </button>
-                </form>
-                <p style={privacyNoteStyle}>
-                  Your information is safe with us.
-                </p>
-              </div>
-            </div>
-          )}
+         
+       
         </div>
         <Link to={`/`}>
         <p style={{ textAlign: 'center', marginTop: '20px' }}>

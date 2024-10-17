@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom'; // Make sure to import Link
 
 // Dummy JSON API URL for recipes
 const apiURL = 'https://dummyjson.com/recipes';
@@ -53,7 +54,7 @@ const PopularCategories = () => {
 
   const gridStyle = {
     display: 'grid',
-    gridTemplateColumns: 'repeat(4, 1fr)', // Adjusted to show 3 categories per row
+    gridTemplateColumns: 'repeat(4, 1fr)', // Adjusted to show 4 categories per row
     gap: '20px',
   };
 
@@ -89,12 +90,13 @@ const PopularCategories = () => {
         <p style={{ color: 'red' }}>{error}</p>
       ) : (
         <div style={gridStyle}>
-          {categories.slice(0, 8).map((category) => ( // Use slice instead of splice to not mutate the original array
-            <div key={category.id} style={categoryStyle}>
-              <img src={category.image} alt={category.title} style={imageStyle} />
-              
-              <span style={labelStyle}>{category.mealType} Recipe</span>
-            </div>
+          {categories.slice(12, 20).map((category) => ( // Use slice instead of splice to not mutate the original array
+            <Link key={category.id} to={`/detail/${category.id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
+              <div style={categoryStyle}>
+                <img src={category.image} alt={category.title} style={imageStyle} />
+                <span style={labelStyle}>{category.mealType} Recipe</span>
+              </div>
+            </Link>
           ))}
         </div>
       )}
@@ -103,4 +105,5 @@ const PopularCategories = () => {
 };
 
 export default PopularCategories;
+
 
